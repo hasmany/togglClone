@@ -26,10 +26,6 @@ ul {
 
 }
 
-p {
-  color:  #494949;;
-}
-
 /*##########*/
 /*# LAYOUT #*/
 /*##########*/
@@ -91,6 +87,7 @@ p {
   font-size: 24px;
   -webkit-transform: translate3d(-50%,0,0);
   transform: translate3d(-50%,0,0);
+  font-family: 'Abel',sans-serif;
 }
 
 .banner button {
@@ -105,6 +102,10 @@ p {
   background-color:#ededed;
   text-align: center;
   padding: 25px 0;
+}
+
+.timer p {
+  color:  #494949;;
 }
 
 .timer h1 {
@@ -134,8 +135,8 @@ p {
 
 .timer-info p {
   padding-bottom: 25px;
-
 }
+
 .timer-button {
   width: 50px;
   height: 50px;
@@ -143,6 +144,7 @@ p {
   border-color: #f30c16;
   color: #f30c16;
   background-color: #ededed;
+
 }
 
 .started-button {
@@ -151,6 +153,8 @@ p {
   border: 2px solid #f30c16;
   background-color: #ededed;
   text-transform: uppercase;
+  font-family: 'Abel',sans-serif;
+  font-size: 24px;
 }
 
 /*########*/
@@ -161,6 +165,10 @@ p {
   text-align: center;
   background-color: #fff;
   padding: 25px 0;
+}
+
+.stat p {
+  color:  #494949;;
 }
 
 .stat h1 {
@@ -232,4 +240,15 @@ p {
 }
 .group {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*##########*/
+/*# MEDIA #*/
+/*##########*/
+
+@media(min-width: 768px) {
+  .grid-cell {
+    width: 50%;
+    float:left;
+  }
 }
