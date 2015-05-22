@@ -8,8 +8,10 @@ body, h1, h2, p, ul, li, a {
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
 }
+
 
 * {
   -webkit-box-sizing: border-box;
@@ -68,6 +70,12 @@ body {
 .timer {
   text-align: center;
 }
+
+.timer h1 {
+  color: #f30c16;
+}
+
+}
 .timer-header {
   border-bottom: 2px solid gray;
 }
@@ -92,8 +100,61 @@ body {
   color: #f30c16;
   border: 2px solid #f30c16;
   text-transform: uppercase;
-
 }
+
+/*########*/
+/*# STAT #*/
+/*########*/
+
+.stat {
+  text-align: center;
+}
+
+.stat h1 {
+  color: #f30c16;
+}
+
+/*############*/
+/*# IMG GRID #*/
+/*############*/
+
+.img-grid {
+  text-align: center;
+}
+
+.grid-cell {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  width: 100%;
+  position: relative;
+}
+
+.guy-one {
+  background-image: url('../img/guyimg1.jpg');
+}
+
+.guy-two {
+  background-image: url('../img/guyimg2.jpg');
+}
+
+.girl-one {
+  background-image: url('../img/girlimg1.jpg');
+}
+
+.girl-two {
+  background-image: url('../img/girlimg2.jpg');
+}
+
+.grid-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 70%;
+}
+
+
 /*############*/
 /*# CLEARFIX #*/
 /*############*/
