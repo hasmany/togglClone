@@ -7,6 +7,10 @@ body, h1, h2, p, ul, li, a {
   margin: 0;
 }
 
+body {
+  font-family: "Times New Roman", Times, serif;;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -28,8 +32,80 @@ body, h1, h2, p, ul, li, a {
 .img-grid {background-color: tomato;}
 .main-footer {background-color: cyan;}
 
+/*######*/
+/*BANNER*/
+/*######*/
 
+.main-header {
+  background-color: aqua;
+}
 
+.main-header .nav-logo {
+  float: right;
+}
 
+.main-header .main-nav {
+  float:left;
+}
 
+.banner {
+  text-align: center;
+}
 
+.tracking-button {
+  background-color: #f30c16;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+/*#########*/
+/*# TIMER #*/
+/*########*/
+
+.timer {
+  text-align: center;
+}
+.timer-header {
+  border-bottom: 2px solid gray;
+}
+.timer-header > div{
+  float: left;
+}
+
+.timer-header > button {
+  float: right;
+}
+
+.timer-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: #f30c16;
+  color: #f30c16;
+}
+
+.started-button {
+  padding: 10px 20px;
+  color: #f30c16;
+  border: 2px solid #f30c16;
+  text-transform: uppercase;
+
+}
+/*############*/
+/*# CLEARFIX #*/
+/*############*/
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
