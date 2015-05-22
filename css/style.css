@@ -8,8 +8,12 @@ body, h1, h2, p, ul, li, a {
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Open Sans',sans-serif;
   color: #fff;
+}
+
+h1, h2 {
+  font-family: 'Abel',sans-serif;
 }
 
 ul {
@@ -45,15 +49,21 @@ p {
 /*######*/
 
 .main-header {
-  background-color: aqua;
+  width: 96%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
+.nav-logo {
+  padding: 10px;
+  background-color: #f30c16;
+}
 .main-header .nav-logo {
-  float: right;
+  float: left;
 }
 
 .main-header .main-nav {
-  float:left;
+  float:right;
 }
 
 .banner {
