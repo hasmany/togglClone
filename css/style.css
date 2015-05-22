@@ -1,0 +1,35 @@
+/*############*/
+/*# GLOBALS #*/
+/*###########*/
+
+body, h1, h2, p, ul, li, a {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+/*##########*/
+/*# LAYOUT #*/
+/*##########*/
+
+.main-wrapper > div {
+  border: 3px solid black;
+}
+
+.banner {background-color: steelblue;}
+.timer {background-color: coral;}
+.stat {background-color: violet;}
+.img-grid {background-color: tomato;}
+.main-footer {background-color: cyan;}
+
+
+
+
+
+
