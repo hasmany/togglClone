@@ -2,7 +2,7 @@
 /*# GLOBALS #*/
 /*###########*/
 
-body, h1, h2, p, ul, li, a {
+body, h1, h2, p, ul, li, a, div, span {
   padding: 0;
   margin: 0;
 }
@@ -40,6 +40,12 @@ ul {
 .img-grid {background-color: tomato;}
 .main-footer {background-color: cyan;}
 
+.container {
+  width: 96%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /*######*/
 /*BANNER*/
 /*######*/
@@ -48,18 +54,25 @@ ul {
   width: 96%;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .nav-logo {
   padding: 10px;
   background-color: #f30c16;
 }
+
+.nav-list {
+  display: none;
+}
+
 .main-header .nav-logo {
   float: left;
 }
 
 .main-header .main-nav {
   float:right;
+  padding-top: 10px;
 }
 
 .banner {
@@ -72,9 +85,10 @@ ul {
 }
 
 .banner-text {
-  padding: 490px 35px 490px 35px;
-  font-size: 20px;
-  text-transform: uppercase
+  padding: 300px 35px 300px 35px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .tracking-button {
@@ -137,6 +151,10 @@ ul {
   padding-bottom: 25px;
 }
 
+.timer-display-tablet {
+  display: none;
+}
+
 .timer-button {
   width: 50px;
   height: 50px;
@@ -179,8 +197,13 @@ ul {
 /*# IMG GRID #*/
 /*############*/
 
+.stat-tablet {
+  display: none;
+}
+
 .img-grid {
   text-align: center;
+  position: relative;
 }
 
 .grid-cell {
@@ -251,4 +274,111 @@ ul {
     width: 50%;
     float:left;
   }
+
+  .main-nav img {
+    display: none;
+  }
+
+  .banner {
+    height: 600px;
+  }
+
+  .banner-text {
+    padding: 225px 35px 225px 35px;
+
+  }
+  .main-nav .nav-list {
+    display: initial;
+  }
+
+  .main-nav li {
+    float: right;
+    margin: 0 10px;
+  }
+
+  .nav-list li:first-of-type {
+    text-transform: uppercase;
+  }
+
+  .timer-header {
+    display: none;
+  }
+
+  .timer-display-tablet {
+    display: block;
+    width: 90%;
+    background-color: #fff;
+    line-height: 57px;
+  }
+
+  .timer-input-mobile {
+    display: inline-block;
+    width: 80%;
+    height: 50px;
+    text-align: left;
+  }
+
+  .timer-button-tablet {
+    /*padding: 10px;*/
+    float: right;
+    background-color:#454545;
+    color: #fff;
+    height: 57px;
+    width: 10%;
+  }
+
+  .timer-button-tablet p {
+    color: #fff;
+  }
+
+  .timer-display-time {
+    float: right;
+    color: #494949;
+    padding-right: 5px;
+  }
+
 }
+
+@media (min-width: 1250px) {
+
+  .stat {
+    display: none;
+  }
+
+  .stat-tablet {
+    display: block;
+    width: 20%;
+    z-index: 1;
+    left: 50%;
+    top:50%;
+    -webkit-transform: translateX(-50%)translateY(-50%);
+    -ms-transform: translateX(-50%)translateY(-50%);
+    transform: translateX(-50%)translateY(-50%);
+    text-align: center;
+    background: #fff;
+    padding: 25px;
+    position: absolute;
+  }
+
+  .stat-tablet p {
+    color: #494949;;
+  }
+
+  .stat-tablet h1 {
+    color: #f30c16;
+  }
+}
+
+
+
+
+/* old mark up*/
+/*<div class="timer-display-tablet group">
+  <div class="timer-input-mobile group">
+    <p>Reading toggle.com</p>
+    <p class="timer-display-time"><span>11:13min</span></p>
+  </div>
+  <div class="timer-button-tablet">
+    <p>Stop</p>
+  </div>
+</div>*/
