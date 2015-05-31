@@ -75,10 +75,6 @@ ul {
 /*# LAYOUT #*/
 /*##########*/
 
-.main-wrapper > div {
-  border: 3px solid black;
-}
-
 .main-wrapper {background-color: #ededed;}
 
 .container {
@@ -486,7 +482,34 @@ ul {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .row-about {
+    height: 100%;
+  }
 
+  .about-main-content > div:nth-child(even) .about-img {
+    width: 50%;
+    height:100%;
+    float: right;
+  }
+
+  .about-main-content > div:nth-child(even) .about-rowtext {
+    width: 50%;
+    height:100%;
+    float: left;
+  }
+  .about-main-content > div:nth-child(odd) .about-img {
+    width: 50%;
+    height:100%;
+    float: left;
+  }
+
+  .about-main-content > div:nth-child(odd) .about-rowtext {
+    width: 50%;
+    height:100%;
+    float:right;
+  }
+}
 /* old mark up*/
 /*<div class="timer-display-tablet group">
   <div class="timer-input-mobile group">
