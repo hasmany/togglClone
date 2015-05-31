@@ -483,6 +483,12 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+
+  .about-main-content {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+
   .row-about {
     height: 100%;
   }
@@ -491,6 +497,11 @@ ul {
     width: 50%;
     height:100%;
     float: right;
+  }
+
+  .about-main-content > div:nth-child(even) .about-img img {
+    width: 100%;
+    height: 100%;
   }
 
   .about-main-content > div:nth-child(even) .about-rowtext {
