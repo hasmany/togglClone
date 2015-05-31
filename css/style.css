@@ -16,6 +16,11 @@ h1, h2 {
   font-family: 'Abel',sans-serif;
 }
 
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
 ul {
   list-style-type: none;
 }
@@ -399,6 +404,14 @@ ul {
 .white {
   background-color: #fff;
   color: #f30c16;
+}
+
+/*######################*/
+/*# ABOUT-MAIN-CONTENT #*/
+/*#####################*/
+
+.about-img {
+  width: 100%;
 }
 
 /* old mark up*/
