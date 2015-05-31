@@ -31,6 +31,7 @@ ul {
 /*##########*/
 
 .main-wrapper > div {
+  background-color:#ededed;
   border: 3px solid black;
 }
 
@@ -38,7 +39,7 @@ ul {
 .timer {background-color: coral;}
 .stat {background-color: violet;}
 .img-grid {background-color: tomato;}
-.main-footer {background-color: cyan;}
+
 
 .container {
   width: 96%;
@@ -113,7 +114,6 @@ ul {
 /*########*/
 
 .timer {
-  background-color:#ededed;
   text-align: center;
   padding: 25px 0;
 }
@@ -369,8 +369,37 @@ ul {
   }
 }
 
+/*#########*/
+/*# ABOUT #*/
+/*#########*/
 
+.about-banner {
+  text-align: center;
+}
 
+.about-banner h1{
+  color: #f30c16;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about-banner {
+  color: #494949;;
+  font-family: 'Open Sans', sans-serif
+}
+
+.about-banner .tracking-button {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  display:block;
+  width: 100%;
+  margin: 10px 0
+}
+
+.white {
+  background-color: #fff;
+  color: #f30c16;
+}
 
 /* old mark up*/
 /*<div class="timer-display-tablet group">
