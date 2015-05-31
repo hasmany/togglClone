@@ -2,7 +2,7 @@
 /*# GLOBALS #*/
 /*###########*/
 
-body, h1, h2, p, ul, li, a, div, span {
+body, h1, h2, h3, p, ul, li, a, div, span {
   padding: 0;
   margin: 0;
 }
@@ -36,15 +36,10 @@ ul {
 /*##########*/
 
 .main-wrapper > div {
-  background-color:#ededed;
   border: 3px solid black;
 }
 
-.banner {background-color: steelblue;}
-.timer {background-color: coral;}
-.stat {background-color: violet;}
-.img-grid {background-color: tomato;}
-
+.main-wrapper {background-color: #ededed;}
 
 .container {
   width: 96%;
@@ -389,8 +384,8 @@ ul {
 }
 
 .about-banner {
-  color: #494949;;
-  font-family: 'Open Sans', sans-serif
+  color: #494949;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .about-banner .tracking-button {
@@ -410,9 +405,27 @@ ul {
 /*# ABOUT-MAIN-CONTENT #*/
 /*#####################*/
 
+.about-main-content {
+  background-color: #fff;
+}
+
 .about-img {
   width: 100%;
 }
+
+.about-rowtext {
+  color: #494949;
+  padding: 25px;
+}
+
+.about-rowtext h2 {
+  color: #f30c16;
+}
+
+.about-rowtext h3 {
+  margin-bottom: 15px;
+}
+
 
 /* old mark up*/
 /*<div class="timer-display-tablet group">
