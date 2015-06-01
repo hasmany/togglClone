@@ -525,6 +525,16 @@ ul {
     height:100%;
     float:right;
   }
+
+  .about-banner .tracking-button  {
+    width: 282px;
+    display:inline-block;
+  }
+
+  .about-banner .tracking-button.white{
+    margin-right: 15px;
+  }
+
 }
 /* old mark up*/
 /*<div class="timer-display-tablet group">
