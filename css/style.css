@@ -472,6 +472,28 @@ ul {
   margin-bottom: 15px;
 }
 
+/*#############*/
+/*# FEATURES #*/
+/*############*/
+
+.feature-banner {
+  background-image: url('../img/features-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 938px;
+  text-align: center;
+}
+
+.feature-banner h1 {
+  color: #f30c16;
+  font-size: 34px;
+  margin-top: 35px;
+}
+
+/*#################*/
+/*# MEDIA QUERIES #*/
+/*################*/
+
 @media screen and (min-width: 935px) {
 
   .about-text {
@@ -583,6 +605,7 @@ ul {
   .stat-tablet h1 {
     color: #f30c16;
   }
+
 }
 
 /* old mark up*/
