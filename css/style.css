@@ -492,6 +492,17 @@ ul {
   text-align: center;
 }
 
+.feature-center {
+  max-width: 630px;
+  margin: 0 auto;
+  padding: 30px 0;
+  line-height: 30px;
+}
+
+.feature-center h2 {
+  text-transform: uppercase;
+}
+
 .feature-banner h1 {
   color: #f30c16;
   font-size: 34px;
@@ -532,6 +543,10 @@ ul {
   background-color: #ededed;
 }
 
+.feature-center h2 {
+  margin-bottom: 15px;
+}
+
 .feature-team {
   background-color: #f5f5f5;
 }
@@ -554,13 +569,7 @@ ul {
 }
 
 .feature-reasons h2 {
-  margin-bottom: 10px;
   text-transform: uppercase;
-}
-
-.feature-reasons ul {
-  max-width:590px;
-  margin: 0 auto;
 }
 
 .feature-reasons li {
