@@ -79,6 +79,31 @@ ul {
   content: "\ea91";
 }
 
+.icon-tux:before {
+  content: "\eabe";
+  display: block;
+}
+
+.icon-apple:before {
+  content: "\eabf";
+  display: block;
+}
+
+.icon-android:before {
+  content: "\eac1";
+  display: block;
+}
+
+.icon-windows8:before {
+  content: "\eac3";
+  display: block;
+}
+
+.icon-cog:before {
+  content: "\e994";
+  display: block;
+}
+
 /*##########*/
 /*# LAYOUT #*/
 /*##########*/
@@ -558,6 +583,28 @@ ul {
   background-color: #fff;
   text-align: center;
 }
+
+.logo-list {
+  margin: 3em 0;
+}
+
+.logo-list li {
+  color: #404040;
+  font-size: 1.25em;
+}
+
+.logo-list li {
+  display: inline-block;
+  margin-right: 1.25em;
+  margin-bottom: 1.5em;
+}
+
+.logo-list [class^="icon-"]:before {
+  color: #999;
+  font-size: 2em;
+  margin-bottom: .25em;
+}
+
 /*#################*/
 /*# FEATURES LIST #*/
 /*################*/
