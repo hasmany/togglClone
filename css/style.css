@@ -584,6 +584,11 @@ ul {
   text-align: center;
 }
 
+.clockPic {
+  width: 65%;
+  margin: 70px 0 20px 0;
+}
+
 .logo-list {
   margin: 3em 0;
 }
